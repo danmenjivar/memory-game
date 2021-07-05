@@ -27,11 +27,11 @@ function GameBoard(props) {
   const handleClick = (toy) => {
     console.log("HandleClick listener");
     shuffleBoard();
-    // Check if streak isn't broken, increment score
     const isStreakBroken = streak.includes(toy);
     if (!isStreakBroken) {
-      updateScores();
+      // if streak isn't broken, increment score
       addToStreak(toy);
+      updateScores();
     } else {
       // clear streak and reset score
       clearStreak();
