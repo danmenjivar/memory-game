@@ -1,0 +1,4 @@
+.Scoreboard {
+  display: flex;
+  flex-direction: column;
+}

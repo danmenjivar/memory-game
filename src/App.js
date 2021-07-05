@@ -1,9 +1,12 @@
 import "./styles/App.css";
+import Scoreboard from "./components/Scoreboard";
+import GameBoard from "./components/GameBoard";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <h2>Hello world</h2>
+      <Scoreboard />
+      <GameBoard />
     </div>
   );
 }
