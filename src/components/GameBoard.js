@@ -2,18 +2,56 @@ import "../styles/GameBoard.css";
 import GameTile from "./GameTile";
 import toys from "../toys";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-function GameBoard() {
+function GameBoard(props) {
+  const [tiles, setTiles] = useState([...toys]);
+  const [streak, setStreak] = useState([]);
+
+  const { updateScores, resetScore } = props.scoreHelpers;
+
   const shuffleBoard = () => {
-    toys.sort(() => Math.random() - 0.5);
+    const shuffledTiles = [...tiles];
+    shuffledTiles.sort(() => Math.random() - 0.5);
+    setTiles(shuffledTiles);
   };
 
-  shuffleBoard();
+  const addToStreak = (toy) => {
+    console.log("Adding " + toy + " to streak.");
+    const streakCopy = [...streak, toy];
+    setStreak(streakCopy);
+  };
+
+  const clearStreak = () => setStreak([]);
+
+  const handleClick = (toy) => {
+    console.log("HandleClick listener");
+    shuffleBoard();
+    // Check if streak isn't broken, increment score
+    const isStreakBroken = streak.includes(toy);
+    if (!isStreakBroken) {
+      updateScores();
+      addToStreak(toy);
+    } else {
+      // clear streak and reset score
+      clearStreak();
+      resetScore();
+    }
+  };
+
+  useEffect(() => {
+    shuffleBoard();
+  }, []);
+
   return (
     <div className="GameBoard">
-      {[...Array(16)].map((elem, i) => (
-        <GameTile img={toys[i]} />
+      {tiles.map((elem, i) => (
+        <GameTile
+          key={i}
+          src={tiles[i].src}
+          name={tiles[i].name}
+          handleClick={handleClick}
+        />
       ))}
     </div>
   );
