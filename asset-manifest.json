@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.ec152008.chunk.css",
+    "main.js": "/memory-game/static/js/main.4c1f4571.chunk.js",
+    "main.js.map": "/memory-game/static/js/main.4c1f4571.chunk.js.map",
+    "runtime-main.js": "/memory-game/static/js/runtime-main.55c6201d.js",
+    "runtime-main.js.map": "/memory-game/static/js/runtime-main.55c6201d.js.map",
+    "static/js/2.c6746ac4.chunk.js": "/memory-game/static/js/2.c6746ac4.chunk.js",
+    "static/js/2.c6746ac4.chunk.js.map": "/memory-game/static/js/2.c6746ac4.chunk.js.map",
+    "index.html": "/memory-game/index.html",
+    "static/css/main.ec152008.chunk.css.map": "/memory-game/static/css/main.ec152008.chunk.css.map",
+    "static/js/2.c6746ac4.chunk.js.LICENSE.txt": "/memory-game/static/js/2.c6746ac4.chunk.js.LICENSE.txt",
+    "static/media/aliens.webp": "/memory-game/static/media/aliens.ccac6e23.webp",
+    "static/media/App.css": "/memory-game/static/media/andysRoom.5e8ca07d.jpg",
+    "static/media/bo.webp": "/memory-game/static/media/bo.3d3a7e54.webp",
+    "static/media/bullseye.webp": "/memory-game/static/media/bullseye.e11e54f0.webp",
+    "static/media/buzz.webp": "/memory-game/static/media/buzz.6d9ae226.webp",
+    "static/media/duke-caboom.webp": "/memory-game/static/media/duke-caboom.b70da4b4.webp",
+    "static/media/hamm.webp": "/memory-game/static/media/hamm.1f93576c.webp",
+    "static/media/jessie.webp": "/memory-game/static/media/jessie.49378016.webp",
+    "static/media/ken.webp": "/memory-game/static/media/ken.61d2b72c.webp",
+    "static/media/lotso.webp": "/memory-game/static/media/lotso.2d2ae8d7.webp",
+    "static/media/mr-potato.webp": "/memory-game/static/media/mr-potato.9337363b.webp",
+    "static/media/rex.webp": "/memory-game/static/media/rex.34d38e28.webp",
+    "static/media/sergeant.webp": "/memory-game/static/media/sergeant.da9940b3.webp",
+    "static/media/slinky.webp": "/memory-game/static/media/slinky.ca6310af.webp",
+    "static/media/sporky.webp": "/memory-game/static/media/sporky.2bd3a6e5.webp",
+    "static/media/woody.webp": "/memory-game/static/media/woody.9457b21d.webp",
+    "static/media/zurg.webp": "/memory-game/static/media/zurg.f95f7ed3.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55c6201d.js",
+    "static/js/2.c6746ac4.chunk.js",
+    "static/css/main.ec152008.chunk.css",
+    "static/js/main.4c1f4571.chunk.js"
+  ]
+}
