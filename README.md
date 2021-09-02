@@ -2,4 +2,4 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The project is deployed live [here](http://{username}.github.io/{repo-name})
+The project is deployed live [here](https://danmenjivar.github.io/memory-game/)
