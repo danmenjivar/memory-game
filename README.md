@@ -2,7 +2,7 @@
 
 ### [Live Demo](https://danmenjivar.github.io/memory-game)
 
-![screenshot](memeorycard-screenshot.jpg)
+![screenshot](memorycard-screenshot.jpg)
 
 #### 📝 Description
  
