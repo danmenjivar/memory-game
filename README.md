@@ -1,5 +1,18 @@
 #  Toy Story Card Memory Game built with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### [Live Demo](https://danmenjivar.github.io/memory-game)
 
-The project is deployed live [here](https://danmenjivar.github.io/memory-game/)
+![screenshot](memeorycard-screenshot.jpg)
+
+#### 📝 Description
+ 
+A fun memory matching game written with React. A project from [the Odin Project Curriculum](https://www.theodinproject.com). 
+
+#### 💡 Features
+* Some very familiar faces
+* Scoreboard
+* Disney-Pixar Toy Story Theming
+
+#### 🛠️ Built with
+* React
+
